@@ -1,0 +1,43 @@
+body{
+    margin: 0px 200px;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.checked {
+    color: orange;
+}
+.info{
+    padding-bottom:10px ;
+}
+sup{
+    color: red;
+}
+.col-3{
+    padding-bottom: 10px;
+}
+.experience{
+    padding-bottom: 10px;
+}
+table{
+    width: 100%;
+}
+.wtable{
+    width: 25%;
+}
+
+@media (max-width:500px) {
+    body{
+        margin: 10px;
+    }
+    .container{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        margin:0px;
+        padding: 0px;
+        max-width: 100%;
+    }
+}experience
